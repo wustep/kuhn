@@ -1,0 +1,11 @@
+/* Body CSS */
+
+body {
+  font-family: Helvetica,Arial,sans-serif;
+  margin: 5px;
+}
+
+.day-info-box {
+   width: 300px;
+   height: 400px;
+}
