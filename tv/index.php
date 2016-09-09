@@ -14,11 +14,18 @@
 		<input type="button" id="down" value="Download"/>
 		<input type="button" id="reset" value="Reset"/>
 	</div><br>
-	<form id='tv-output-form' method='post' action='tv.png' target='_blank' >
+	<form id='tv-output-form' method='post' action='tv.jpg' target='_blank' >
 		<div id="output">
 		</div>
 	</form>
-	
+	<div id="reset-dialog" title="Reset Generator" style="display:none;">
+		<p><span class="ui-icon ui-icon-alert icon-attn"></span>Are you sure you want to reset the entire generator?</p>
+	</div>
+	<div id="download-dialog" title="Download" style="display:none;">
+		<form id='tv-output-form-dl' method='post' action='tv.jpg' target='_blank'>
+		</form>
+	</div>
+
 	<script src="lib/jquery.min.js"></script>
 	<script src="lib/jquery-ui.min.js"></script>
 	<script src="lib/moment.js"></script>

@@ -9,3 +9,8 @@ body {
    width: 300px;
    height: 400px;
 }
+
+.icon-attn {
+  float: left; 
+  margin: 0 7px 20px 0;
+}
