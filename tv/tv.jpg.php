@@ -17,6 +17,24 @@
 			imagejpeg($img);
 			imagedestroy($img);
 		}
+/*	Merging Create Image, not fully functional yet
+		public function createImage2() {
+			$rand = rand(1,2);
+			$imgFront = "img/front.png";
+			$imgBack = "img/back".$rand.".jpg";
+			$img = imagecreatefrompng($imgFront);
+			$img2 = imagecreatefromjpeg($imgBack);
+			$white = imagecolorallocate($img, 255, 255, 255);
+			$scarlet = imagecolorallocate($img, 187, 0, 0);
+			imagettftext($img, 28, 0, 50, 165, $white, "lib/arial.ttf", $this->text);
+			imagettftext($img, 27, 0, 50, 1030, $scarlet, "lib/arial.ttf", "http://honors-scholars.osu.edu");
+			imagealphablending($img, false);
+			imagesavealpha($img, true);
+			imagecopyresampled($img2, $img, 900, 0, 0, 0, 1920, 1080, 1020, 1020);
+			imagejpeg($img);
+			imagedestroy($img);
+		}
+*/
 	}
 
 	if (isset($_POST["linkGet"]) || isset($_POST["linkGetDL"])) {
