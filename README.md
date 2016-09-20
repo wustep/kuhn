@@ -4,6 +4,8 @@ Stephen's Kuhn Honors &amp; Scholars House Work Tools
 # TV Generator - /tv/ - PHP, Javascript, HTML
 Generate images for the TV room schedule at the front desk by typing them directly into a webapp. 
 
+[Live Demo](http://wustep.me/kuhn/tv/)
+
 This webapp saves significant time compared to using the software provided by Samsung. Ideally, this script could be developed to procedurally generate the TV output based on the calendars of those rooms.
 
 # Find People Tool - /findppl/ - Python
