@@ -56,7 +56,7 @@ $(function() {
 			var numDays = endDate.diff(startDate, "days") + 1;
 			var curDate = startDate;			
 			$(".day-info-box").each(function() {
-				$("#tv-output-form-dl").append("<button type='submit' name='linkGetDL' value='"+i+"' class='linkDL'>" + curDate.format("ddd, MMM D") + "</button><br>").append("<input type='hidden' name='date"+i+"' value='"+$("#date-" + i).html()+"'/>");
+				$("#tv-output-form-dl").append("<button type='submit' name='linkGetDL' value='"+i+"' class='linkDL'>" + curDate.format("ddd, MMM D") + "</button><br>").append("<input type='hidden' name='date"+i+"' value='"+ $('textarea#date-' + i).val()+"'/>");
 				curDate = startDate.add(1, "days")
 				i++;
 			});

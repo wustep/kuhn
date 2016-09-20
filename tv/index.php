@@ -25,14 +25,9 @@
 		<form id='tv-output-form-dl' method='post' action='tv.jpg' target='_blank'>
 		</form>
 	</div>
-
 	<script src="lib/jquery.min.js"></script>
 	<script src="lib/jquery-ui.min.js"></script>
 	<script src="lib/moment.js"></script>
 	<script src="tv.js"></script>
 </body>
-<!--
-Started 6:30p on 9/7
-
--->
 </html>	
